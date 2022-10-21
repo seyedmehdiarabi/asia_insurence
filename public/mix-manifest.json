@@ -1,0 +1,14 @@
+{
+    "/js/vue2.js": "/js/vue2.js",
+    "/modules/users/component.js": "/modules/users/component.js",
+    "/modules/panelTheme/component.js": "/modules/panelTheme/component.js",
+    "/modules/address/component.js": "/modules/address/component.js",
+    "/modules/messages/component.js": "/modules/messages/component.js",
+    "/modules/visitStatistics/component.js": "/modules/visitStatistics/component.js",
+    "/modules/lands/component.js": "/modules/lands/component.js",
+    "/modules/planVisit/component.js": "/modules/planVisit/component.js",
+    "/modules/gallery/component.js": "/modules/gallery/component.js",
+    "/modules/panel-gallery/component.js": "/modules/panel-gallery/component.js",
+    "/modules/phoneBook/component.js": "/modules/phoneBook/component.js",
+    "/modules/Customer/component.js": "/modules/Customer/component.js"
+}

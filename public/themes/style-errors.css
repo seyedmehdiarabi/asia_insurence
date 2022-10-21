@@ -1,0 +1,11 @@
+body {
+    direction: rtl;
+    text-align: right;
+    background: #EEF0F8;
+}
+
+
+.error-404-box {
+    background-color: white;
+    width: 97%;
+}

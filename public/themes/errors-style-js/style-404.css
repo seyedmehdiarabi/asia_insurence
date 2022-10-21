@@ -1,0 +1,89 @@
+body {
+
+}
+
+#app {
+    background-color: #141019 !important;
+    background: radial-gradient(at 50% -20%, #908392, #0d060e) fixed !important;
+}
+
+.app-style {
+    font-family: IRANYekanWeb !important;
+}
+
+.v-application .headline .v-application .title {
+    font-family: inherit !important;
+}
+
+.theme--light.v-application {
+    background: transparent !important;
+}
+
+* {
+    margin: 0;
+    scroll-behavior: smooth !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+#handboy {
+    animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 98% 98%;
+    transform-box: fill-box;
+
+}
+
+
+#girllight {
+    animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 0% 97%;
+    transform-box: fill-box;
+}
+
+#hairgirl {
+    animation: swinghair ease-in-out 1.3s infinite alternate;
+    transform-origin: 60% 0%;
+    transform-box: fill-box;
+
+}
+
+#zero {
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+/*************swing************/
+@keyframes swing {
+    0% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+
+/*************swing hair************/
+@keyframes swinghair {
+    0% {
+        transform: rotate(6deg);
+    }
+    100% {
+        transform: rotate(-6deg);
+    }
+}
+
+.error-404-box {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    -webkit-transform: translate(50%, -55%);
+    transform: translate(50%, -55%);
+}
+

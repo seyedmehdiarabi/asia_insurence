@@ -1,0 +1,78 @@
+.user-detail-table tr td span {
+    color: black !important;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+
+.user-detail-table tr td {
+    padding: 1rem;
+    font-size: 16px;
+}
+
+.user-detail-table tr td a {
+    display: flex;
+    justify-content: space-between;
+    color: #c2c2c2;
+    width: 100%;
+}
+
+.user-detail-table tr td {
+    color: #bababa;
+    width: 50% !important;
+}
+
+.table {
+    width: 100% !important;
+    border-collapse: collapse;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+#resend_active_code {
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+    .v-sheet.v-card:not(.v-sheet--outlined) {
+        box-shadow: none !important;
+    }
+
+    .theme--light.v-application {
+        background-color: white !important;
+    }
+}
+
+.v-picker--date.theme--light {
+    width: 100% !important;
+}
+
+.box-insert-additional-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: baseline;
+}
+
+.box-insert-additional-info span {
+    text-align: right !important;
+}
+
+.visit-kart .v-list-item__title {
+    font-family: IRSANS !important;
+    font-size: 18px !important;
+    letter-spacing: -0.2px;
+}
+
+.visit-kart .info-item {
+    font-size: 16px !important;
+}
